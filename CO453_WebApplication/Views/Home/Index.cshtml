@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="jumbotron text-center">
+    <h1 class="display-4">Posh Nosh Website</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<div class="row">
+    <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+            <img src="~/images/Paellla.jpg" class="card-img-top" alt="Meal Image">
+            <div class="card-body">
+                <h5 class="card-title">Select your meal</h5>
+                <p class="card-text">
+                    Please select your meal from an extensive menu
+                    of dishes cooked by our talented chefs.
+                </p>
+                <a href="#" class="btn btn-info">Select Meal</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+            <img src="~/images/CP_Avatar.jpg" class="card-img-top" alt="Customer Avatar">
+            <div class="card-body">
+                <h5 class="card-title">Enter Your Details</h5>
+                <p class="card-text">Please enter your personal details to have your order delivered</p>
+                <a class="btn btn-success" asp-controller="Home" asp-action="Customer">Enter Details</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+            <img src="~/images/OnlinePayment.png" class="card-img-top" alt="Payment Icon">
+            <div class="card-body">
+                <h5 class="card-title">Pay for Order</h5>
+                <p class="card-text">Please enter your payment details to confirm he purchase of your meal.</p>
+                <a href="#" class="btn btn-warning">Pay for Order</a>
+            </div>
+        </div>
+    </div>
+</div>
