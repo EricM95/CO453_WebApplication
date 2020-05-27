@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace CO453_WebApplication.Models
 {
+    /// <summary>
+    /// This class will collect data
+    /// from the customer details page
+    /// </summary>
     public class Customer
     {
         public int CustomerID { get; set; }
